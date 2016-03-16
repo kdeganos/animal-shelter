@@ -50,7 +50,7 @@
 }
 
 @media only screen and (min-width: 1000px) {
-  .available {
+  .available, h1 {
     width: 1200px;
   }
 }
@@ -70,10 +70,6 @@
   }
   @page :first {
       margin-top: 2cm;
-  }
-  .columns {
-      orphans: 10;
-      widows: 10;
   }
 
 }
