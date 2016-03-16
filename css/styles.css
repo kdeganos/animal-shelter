@@ -38,3 +38,19 @@
   margin: 10px;
   background-color: #b3f0ff;
 }
+
+@media only screen and (max-width: 480px) {
+  .all {
+    background-color: red;
+    color: black;
+  }
+  .columns h3, img, p{
+    background-color: #b3f0ff;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .available {
+    width: 1200px;
+  }
+}
