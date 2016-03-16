@@ -54,3 +54,26 @@
     width: 1200px;
   }
 }
+
+@media print {
+  * {
+      background: transparent !important;
+      color: black !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+  }
+  .h1class {
+    display: none;
+  }
+  @page {
+      margin: .5cm;
+  }
+  @page :first {
+      margin-top: 2cm;
+  }
+  .columns {
+      orphans: 10;
+      widows: 10;
+  }
+
+}
